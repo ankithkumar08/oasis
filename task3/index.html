@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=100%"> 
+    <script src="script.js"></script>!
+</head>
+<body>
+    <center>
+        <h1>
+            Temperature Converter
+        </h1>
+    </center>
+    <img src="OASISINFOBYTE.jpeg" class="logo1">
+    <img src="pic1.png" class="logo2">
+
+    <header class="navbar">
+    <div class="banner">  
+        
+              <b>  <h2><div id="converter">
+            <label for="temperature">Enter Temperature:</label>
+            <input type="number" id="temperature" placeholder="Enter temperature" step="any" required><br>
+            <label for="unit">Select Unit: </label>
+            <select id="unit">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+            </select><br></h2></b>
+            <button class="custom-button" onclick="convertTemperature()">Convert</button>
+            <p id="result"></p>
+    </div>
+    </header>
+        
+        <footer class="footer">
+          
+            <h4> Copyright © Temperature converter Project</h4>
+              
+        </footer>
+    </div>
+    
+    
+</body>
+</html>
